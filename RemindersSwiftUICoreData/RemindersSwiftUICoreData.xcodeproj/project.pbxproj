@@ -16,6 +16,7 @@
 		F73D0BB12B994F73006A8C4D /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */; };
 		F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */; };
 		F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */; };
+		F73D0BB82B99575C006A8C4D /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
+		F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				F73D0BAA2B994AF5006A8C4D /* RemindersView.swift */,
 				F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */,
+				F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73D0BB82B99575C006A8C4D /* ColorPickerView.swift in Sources */,
 				F73D0B9A2B994A04006A8C4D /* RemindersSwiftUICoreDataApp.swift in Sources */,
 				F73D0BAE2B994D2D006A8C4D /* RemindersModel.xcdatamodeld in Sources */,
 				F73D0BA82B994AAE006A8C4D /* CoreDataProvider.swift in Sources */,
