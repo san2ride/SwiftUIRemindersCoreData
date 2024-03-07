@@ -12,6 +12,7 @@ struct RemindersSwiftUICoreDataApp: App {
     var body: some Scene {
         WindowGroup {
             RemindersView()
+                .environment(\.managedObjectContext, CoreDataProvider.shared.persistentContainer.viewContext)
         }
     }
 }

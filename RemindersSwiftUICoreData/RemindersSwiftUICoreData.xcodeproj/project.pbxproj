@@ -18,6 +18,7 @@
 		F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */; };
 		F73D0BB82B99575C006A8C4D /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */; };
 		F752A7A52B9A74A9001508F4 /* RemindersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7A42B9A74A9001508F4 /* RemindersService.swift */; };
+		F752A7A82B9A7742001508F4 /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7A72B9A7742001508F4 /* UIColorTransformer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		F752A7A42B9A74A9001508F4 /* RemindersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersService.swift; sourceTree = "<group>"; };
+		F752A7A72B9A7742001508F4 /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				F73D0BAF2B994F36006A8C4D /* Models */,
 				F73D0BA92B994AB8006A8C4D /* Providers */,
 				F752A7A32B9A73DE001508F4 /* Services */,
+				F752A7A62B9A7719001508F4 /* Transformers */,
 				F73D0B992B994A04006A8C4D /* RemindersSwiftUICoreDataApp.swift */,
 				F73D0B9D2B994A06006A8C4D /* Assets.xcassets */,
 				F73D0B9F2B994A06006A8C4D /* Preview Content */,
@@ -118,6 +121,14 @@
 				F752A7A42B9A74A9001508F4 /* RemindersService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		F752A7A62B9A7719001508F4 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				F752A7A72B9A7742001508F4 /* UIColorTransformer.swift */,
+			);
+			path = Transformers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				F73D0BB82B99575C006A8C4D /* ColorPickerView.swift in Sources */,
 				F73D0B9A2B994A04006A8C4D /* RemindersSwiftUICoreDataApp.swift in Sources */,
 				F73D0BAE2B994D2D006A8C4D /* RemindersModel.xcdatamodeld in Sources */,
+				F752A7A82B9A7742001508F4 /* UIColorTransformer.swift in Sources */,
 				F73D0BA82B994AAE006A8C4D /* CoreDataProvider.swift in Sources */,
 				F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */,
 				F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */,
