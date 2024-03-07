@@ -12,6 +12,9 @@
 		F73D0BA12B994A06006A8C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73D0BA02B994A06006A8C4D /* Preview Assets.xcassets */; };
 		F73D0BA82B994AAE006A8C4D /* CoreDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BA72B994AAE006A8C4D /* CoreDataProvider.swift */; };
 		F73D0BAB2B994AF5006A8C4D /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BAA2B994AF5006A8C4D /* RemindersView.swift */; };
+		F73D0BAE2B994D2D006A8C4D /* RemindersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BAC2B994D2D006A8C4D /* RemindersModel.xcdatamodeld */; };
+		F73D0BB12B994F73006A8C4D /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */; };
+		F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		F73D0BA02B994A06006A8C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F73D0BA72B994AAE006A8C4D /* CoreDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataProvider.swift; sourceTree = "<group>"; };
 		F73D0BAA2B994AF5006A8C4D /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		F73D0BAD2B994D2D006A8C4D /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
+		F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +59,13 @@
 		F73D0B982B994A04006A8C4D /* RemindersSwiftUICoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F73D0BAF2B994F36006A8C4D /* Models */,
 				F73D0BA92B994AB8006A8C4D /* Providers */,
 				F73D0BAA2B994AF5006A8C4D /* RemindersView.swift */,
 				F73D0B992B994A04006A8C4D /* RemindersSwiftUICoreDataApp.swift */,
 				F73D0B9D2B994A06006A8C4D /* Assets.xcassets */,
 				F73D0B9F2B994A06006A8C4D /* Preview Content */,
+				F73D0BAC2B994D2D006A8C4D /* RemindersModel.xcdatamodeld */,
 			);
 			path = RemindersSwiftUICoreData;
 			sourceTree = "<group>";
@@ -76,6 +84,15 @@
 				F73D0BA72B994AAE006A8C4D /* CoreDataProvider.swift */,
 			);
 			path = Providers;
+			sourceTree = "<group>";
+		};
+		F73D0BAF2B994F36006A8C4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */,
+				F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73D0B9A2B994A04006A8C4D /* RemindersSwiftUICoreDataApp.swift in Sources */,
+				F73D0BAE2B994D2D006A8C4D /* RemindersModel.xcdatamodeld in Sources */,
 				F73D0BA82B994AAE006A8C4D /* CoreDataProvider.swift in Sources */,
+				F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */,
+				F73D0BB12B994F73006A8C4D /* MyList+CoreDataClass.swift in Sources */,
 				F73D0BAB2B994AF5006A8C4D /* RemindersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +376,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F73D0BAC2B994D2D006A8C4D /* RemindersModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F73D0BAD2B994D2D006A8C4D /* RemindersModel.xcdatamodel */,
+			);
+			currentVersion = F73D0BAD2B994D2D006A8C4D /* RemindersModel.xcdatamodel */;
+			path = RemindersModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F73D0B8E2B994A04006A8C4D /* Project object */;
 }
