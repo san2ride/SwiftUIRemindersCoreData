@@ -28,6 +28,11 @@ struct RemindersView: View {
                 NavigationView {
                     AddNewListView { name, color in
                         // save the list to the database
+                        do {
+                            try RemindersService.saveMyList(name, color)
+                        } catch {
+                            print(error.localizedDescription)
+                        }
                     }
                 }
             }
