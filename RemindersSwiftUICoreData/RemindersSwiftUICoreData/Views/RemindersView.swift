@@ -18,11 +18,7 @@ struct RemindersView: View {
             VStack {
                 MyListView(myLists: myListResults)
                 
-                List(myListResults) { list in
-                    Text(list.name)
-                }
-                
-                //Spacer()
+                Spacer()
                 
                 Button {
                     isPresented = true

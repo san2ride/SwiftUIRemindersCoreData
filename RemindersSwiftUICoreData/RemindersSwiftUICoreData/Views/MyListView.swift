@@ -16,8 +16,14 @@ struct MyListView: View {
                 Spacer()
                 Text("No reminders found")
             } else {
-                ForEach(myLists) { myLists in
-                    Text(myLists.name)
+                ForEach(myLists) { myList in
+                    VStack {
+                        MyListCellView(myList: myList)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding([.leading], 10)
+                            .font(.title3)
+                        Divider()
+                    }
                 }
             }
         }
@@ -25,5 +31,5 @@ struct MyListView: View {
 }
 
 //#Preview {
-//    MyListView()
+//    MyListView(myLists: PreviewData.myList)
 //}
