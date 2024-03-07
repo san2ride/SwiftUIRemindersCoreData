@@ -23,7 +23,7 @@ struct AddNewListView: View {
             
             VStack {
                 Image(systemName: "line.3.horizontal.circle.fill")
-                    .foregroundColor(.green)
+                    .foregroundColor(selectedColor)
                     .font(.system(size: 100))
                 TextField("List Name", text: $name)
                     .multilineTextAlignment(.center)

@@ -66,6 +66,7 @@
 				F73D0BB42B9953DF006A8C4D /* Views */,
 				F73D0BAF2B994F36006A8C4D /* Models */,
 				F73D0BA92B994AB8006A8C4D /* Providers */,
+				F752A7A32B9A73DE001508F4 /* Services */,
 				F73D0B992B994A04006A8C4D /* RemindersSwiftUICoreDataApp.swift */,
 				F73D0B9D2B994A06006A8C4D /* Assets.xcassets */,
 				F73D0B9F2B994A06006A8C4D /* Preview Content */,
@@ -107,6 +108,13 @@
 				F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F752A7A32B9A73DE001508F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

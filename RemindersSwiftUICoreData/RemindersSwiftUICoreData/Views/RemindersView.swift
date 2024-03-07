@@ -8,8 +8,31 @@
 import SwiftUI
 
 struct RemindersView: View {
+    @State private var isPresented: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("Hi Hi World")
+                
+                Spacer()
+                
+                Button {
+                    isPresented = true
+                } label: {
+                    Text("Add List")
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .font(.headline)
+                }.padding()
+            }.sheet(isPresented: $isPresented) {
+                NavigationView {
+                    AddNewListView { name, color in
+                        // save the list to the database
+                    }
+                }
+            }
+        }
+        .padding()
     }
 }
 
