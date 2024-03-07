@@ -11,7 +11,7 @@ import SwiftUI
 struct RemindersSwiftUICoreDataApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RemindersView()
         }
     }
 }
