@@ -15,6 +15,7 @@
 		F73D0BAE2B994D2D006A8C4D /* RemindersModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BAC2B994D2D006A8C4D /* RemindersModel.xcdatamodeld */; };
 		F73D0BB12B994F73006A8C4D /* MyList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */; };
 		F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */; };
+		F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F73D0BAD2B994D2D006A8C4D /* RemindersModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RemindersModel.xcdatamodel; sourceTree = "<group>"; };
 		F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataClass.swift"; sourceTree = "<group>"; };
 		F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,9 @@
 		F73D0B982B994A04006A8C4D /* RemindersSwiftUICoreData */ = {
 			isa = PBXGroup;
 			children = (
+				F73D0BB42B9953DF006A8C4D /* Views */,
 				F73D0BAF2B994F36006A8C4D /* Models */,
 				F73D0BA92B994AB8006A8C4D /* Providers */,
-				F73D0BAA2B994AF5006A8C4D /* RemindersView.swift */,
 				F73D0B992B994A04006A8C4D /* RemindersSwiftUICoreDataApp.swift */,
 				F73D0B9D2B994A06006A8C4D /* Assets.xcassets */,
 				F73D0B9F2B994A06006A8C4D /* Preview Content */,
@@ -93,6 +95,15 @@
 				F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F73D0BB42B9953DF006A8C4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F73D0BAA2B994AF5006A8C4D /* RemindersView.swift */,
+				F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +180,7 @@
 				F73D0BAE2B994D2D006A8C4D /* RemindersModel.xcdatamodeld in Sources */,
 				F73D0BA82B994AAE006A8C4D /* CoreDataProvider.swift in Sources */,
 				F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */,
+				F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */,
 				F73D0BB12B994F73006A8C4D /* MyList+CoreDataClass.swift in Sources */,
 				F73D0BAB2B994AF5006A8C4D /* RemindersView.swift in Sources */,
 			);
