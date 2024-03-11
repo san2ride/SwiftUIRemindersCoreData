@@ -23,6 +23,7 @@
 		F752A7AC2B9A8083001508F4 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7AB2B9A8083001508F4 /* MyListCellView.swift */; };
 		F752A7AE2B9A80BF001508F4 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7AD2B9A80BF001508F4 /* PreviewData.swift */; };
 		F752A7B12B9A8512001508F4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7B02B9A8512001508F4 /* String+Extensions.swift */; };
+		F7E52D122B9F8C6A002F7C38 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		F752A7AB2B9A8083001508F4 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
 		F752A7AD2B9A80BF001508F4 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		F752A7B02B9A8512001508F4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */,
 				F752A7A92B9A7D9D001508F4 /* MyListView.swift */,
 				F752A7AB2B9A8083001508F4 /* MyListCellView.swift */,
+				F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				F73D0BAE2B994D2D006A8C4D /* RemindersModel.xcdatamodeld in Sources */,
 				F752A7AE2B9A80BF001508F4 /* PreviewData.swift in Sources */,
 				F752A7A82B9A7742001508F4 /* UIColorTransformer.swift in Sources */,
+				F7E52D122B9F8C6A002F7C38 /* MyListDetailView.swift in Sources */,
 				F73D0BA82B994AAE006A8C4D /* CoreDataProvider.swift in Sources */,
 				F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */,
 				F752A7B12B9A8512001508F4 /* String+Extensions.swift in Sources */,
