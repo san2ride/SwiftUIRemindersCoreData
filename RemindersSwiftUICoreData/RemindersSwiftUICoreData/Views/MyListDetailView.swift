@@ -13,14 +13,23 @@ struct MyListDetailView: View {
     @State private var openAddReminder: Bool = false
     @State private var title: String = ""
     
+    @FetchRequest(sortDescriptors: [])
+    private var reminderResults: FetchedResults<Reminder>
+    
     private var isFormValidated: Bool {
         !title.isEmpty
+    }
+    
+    init(myList: MyList) {
+        self.myList = myList
+        _reminderResults = FetchRequest(fetchRequest: RemindersService.getRemindersByList(myList: myList))
     }
     
     var body: some View {
         VStack {
             
             // display List of Reminders
+            
             
             HStack {
                 Image(systemName: "plus.circle.fill")
@@ -35,7 +44,11 @@ struct MyListDetailView: View {
             Button("Cancel", role: .cancel) {}
             Button("Done") {
                 if isFormValidated {
-                    // Save reminder
+                    do {
+                        try RemindersService.saveReminderToMyList(myList: myList, reminderTitle: title)
+                    } catch {
+                        print(error.localizedDescription)
+                    }
                 }
             }
         }

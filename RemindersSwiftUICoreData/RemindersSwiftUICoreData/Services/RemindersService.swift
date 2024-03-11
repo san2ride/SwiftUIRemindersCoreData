@@ -24,4 +24,18 @@ class RemindersService {
         myList.color = color
         try save()
     }
+    
+    static func saveReminderToMyList(myList: MyList, reminderTitle: String) throws {
+        let reminder = Reminder(context: viewContext)
+        reminder.title = reminderTitle
+        myList.addToReminders(reminder)
+        try save()
+    }
+    
+    static func getRemindersByList(myList: MyList) -> NSFetchRequest<Reminder> {
+        let request = Reminder.fetchRequest()
+        request.sortDescriptors = []
+        request.predicate = NSPredicate(format: "list = %@ AND isCompleted = false", myList)
+        return request
+    }
 }

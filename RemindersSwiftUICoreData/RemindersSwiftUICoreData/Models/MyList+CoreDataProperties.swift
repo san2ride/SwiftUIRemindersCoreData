@@ -24,8 +24,6 @@ extension MyList: Identifiable {
 
 // MARK: Generated accessors for notes
 extension MyList {
-    
-    /*
     @objc(addRemindersObject:)
     @NSManaged public func addToReminders(_ value: Reminder)
     
@@ -37,5 +35,4 @@ extension MyList {
     
     @objc(removeReminders:)
     @NSManaged public func removeFromReminders(_ value: NSSet)
-    */
 }
