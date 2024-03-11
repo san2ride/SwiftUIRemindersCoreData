@@ -24,6 +24,7 @@
 		F752A7AE2B9A80BF001508F4 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7AD2B9A80BF001508F4 /* PreviewData.swift */; };
 		F752A7B12B9A8512001508F4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7B02B9A8512001508F4 /* String+Extensions.swift */; };
 		F7E52D122B9F8C6A002F7C38 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */; };
+		F7E52D142B9F94ED002F7C38 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E52D132B9F94ED002F7C38 /* ReminderListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		F752A7AD2B9A80BF001508F4 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		F752A7B02B9A8512001508F4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
+		F7E52D132B9F94ED002F7C38 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				F752A7A92B9A7D9D001508F4 /* MyListView.swift */,
 				F752A7AB2B9A8083001508F4 /* MyListCellView.swift */,
 				F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */,
+				F7E52D132B9F94ED002F7C38 /* ReminderListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				F73D0BB12B994F73006A8C4D /* MyList+CoreDataClass.swift in Sources */,
 				F752A7A52B9A74A9001508F4 /* RemindersService.swift in Sources */,
 				F752A7AA2B9A7D9D001508F4 /* MyListView.swift in Sources */,
+				F7E52D142B9F94ED002F7C38 /* ReminderListView.swift in Sources */,
 				F73D0BAB2B994AF5006A8C4D /* RemindersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

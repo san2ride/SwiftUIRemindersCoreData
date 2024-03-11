@@ -29,7 +29,7 @@ struct MyListDetailView: View {
         VStack {
             
             // display List of Reminders
-            
+            ReminderListView(reminders: reminderResults)
             
             HStack {
                 Image(systemName: "plus.circle.fill")
