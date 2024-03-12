@@ -25,6 +25,7 @@
 		F752A7B12B9A8512001508F4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7B02B9A8512001508F4 /* String+Extensions.swift */; };
 		F77F958D2BA0F439006ADAA9 /* ReminderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F958C2BA0F439006ADAA9 /* ReminderDetailView.swift */; };
 		F77F95902BA0F569006ADAA9 /* ReminderEditConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F958F2BA0F569006ADAA9 /* ReminderEditConfig.swift */; };
+		F77F95932BA0F809006ADAA9 /* CustomOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77F95922BA0F809006ADAA9 /* CustomOperators.swift */; };
 		F7E52D122B9F8C6A002F7C38 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */; };
 		F7E52D142B9F94ED002F7C38 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E52D132B9F94ED002F7C38 /* ReminderListView.swift */; };
 		F7E52D162B9F96B4002F7C38 /* ReminderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E52D152B9F96B4002F7C38 /* ReminderCellView.swift */; };
@@ -51,6 +52,7 @@
 		F752A7B02B9A8512001508F4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		F77F958C2BA0F439006ADAA9 /* ReminderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDetailView.swift; sourceTree = "<group>"; };
 		F77F958F2BA0F569006ADAA9 /* ReminderEditConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderEditConfig.swift; sourceTree = "<group>"; };
+		F77F95922BA0F809006ADAA9 /* CustomOperators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperators.swift; sourceTree = "<group>"; };
 		F7E52D112B9F8C6A002F7C38 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
 		F7E52D132B9F94ED002F7C38 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
 		F7E52D152B9F96B4002F7C38 /* ReminderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCellView.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		F77F95912BA0F7A6006ADAA9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F77F95922BA0F809006ADAA9 /* CustomOperators.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				F7E52D142B9F94ED002F7C38 /* ReminderListView.swift in Sources */,
 				F73D0BAB2B994AF5006A8C4D /* RemindersView.swift in Sources */,
 				F7E52D162B9F96B4002F7C38 /* ReminderCellView.swift in Sources */,
+				F77F95932BA0F809006ADAA9 /* CustomOperators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,8 +17,14 @@ struct ReminderDetailView: View {
             VStack {
                 List {
                     Section {
-                        Text("Title", text: $editConfig.title)
-                        Text("Notes", text: $editConfig.notes)
+                        TextField("Title", text: $editConfig.title)
+                        TextField("Notes", text: $editConfig.notes ?? "")
+                    }
+                    Section {
+                        Toggle(isOn: $editConfig.hasDate) {
+                            Image(systemName: "calendar")
+                                .foregroundColor(.red)
+                        }
                     }
                 }
             }.onAppear {
