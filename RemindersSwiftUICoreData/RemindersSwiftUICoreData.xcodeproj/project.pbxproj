@@ -17,6 +17,7 @@
 		F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */; };
 		F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */; };
 		F73D0BB82B99575C006A8C4D /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */; };
+		F744AA2E2BA3F9B200BB3F9C /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744AA2D2BA3F9B200BB3F9C /* Delay.swift */; };
 		F752A7A52B9A74A9001508F4 /* RemindersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7A42B9A74A9001508F4 /* RemindersService.swift */; };
 		F752A7A82B9A7742001508F4 /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7A72B9A7742001508F4 /* UIColorTransformer.swift */; };
 		F752A7AA2B9A7D9D001508F4 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7A92B9A7D9D001508F4 /* MyListView.swift */; };
@@ -45,6 +46,7 @@
 		F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		F744AA2D2BA3F9B200BB3F9C /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		F752A7A42B9A74A9001508F4 /* RemindersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersService.swift; sourceTree = "<group>"; };
 		F752A7A72B9A7742001508F4 /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
 		F752A7A92B9A7D9D001508F4 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				F77F95922BA0F809006ADAA9 /* CustomOperators.swift */,
+				F744AA2D2BA3F9B200BB3F9C /* Delay.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				F73D0BAB2B994AF5006A8C4D /* RemindersView.swift in Sources */,
 				F7E52D162B9F96B4002F7C38 /* ReminderCellView.swift in Sources */,
 				F77F95932BA0F809006ADAA9 /* CustomOperators.swift in Sources */,
+				F744AA2E2BA3F9B200BB3F9C /* Delay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
