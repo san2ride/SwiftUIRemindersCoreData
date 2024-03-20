@@ -13,6 +13,10 @@ struct ReminderDetailView: View {
     @Binding var reminder: Reminder
     @State var editConfig: ReminderEditConfig = ReminderEditConfig()
     
+    private var isFormValid: Bool {
+        !editConfig.title.isEmpty
+    }
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -59,7 +63,14 @@ struct ReminderDetailView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button("Done") {
-                    }
+                            do {
+                                let _ = try RemindersService.updateReminder(reminder: reminder,
+                                                                            editConfig: editConfig)
+                            } catch {
+                                print(error)
+                            }
+                        dismiss()
+                    }.disabled(!isFormValid)
                 }
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button("Cancel") {
