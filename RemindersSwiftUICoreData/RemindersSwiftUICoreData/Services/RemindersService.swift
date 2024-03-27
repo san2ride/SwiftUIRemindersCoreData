@@ -42,6 +42,13 @@ class RemindersService {
         try save()
     }
     
+    static func getRemindersBySearchTerm(_ searchTerm: String) -> NSFetchRequest<Reminder> {
+        let request = Reminder.fetchRequest()
+        request.sortDescriptors = []
+        request.predicate = NSPredicate(format: "title CONTAINS[cd] %@", searchTerm)
+        return request
+    }
+    
     static func saveReminderToMyList(myList: MyList, reminderTitle: String) throws {
         let reminder = Reminder(context: viewContext)
         reminder.title = reminderTitle
