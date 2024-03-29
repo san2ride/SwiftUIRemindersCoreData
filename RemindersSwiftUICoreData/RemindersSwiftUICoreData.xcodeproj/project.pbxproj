@@ -17,6 +17,7 @@
 		F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */; };
 		F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */; };
 		F73D0BB82B99575C006A8C4D /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */; };
+		F740AAF42BB771E0004237DC /* ReminderStatsBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F740AAF32BB771E0004237DC /* ReminderStatsBuilder.swift */; };
 		F744AA2E2BA3F9B200BB3F9C /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F744AA2D2BA3F9B200BB3F9C /* Delay.swift */; };
 		F752A7A52B9A74A9001508F4 /* RemindersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7A42B9A74A9001508F4 /* RemindersService.swift */; };
 		F752A7A82B9A7742001508F4 /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F752A7A72B9A7742001508F4 /* UIColorTransformer.swift */; };
@@ -46,6 +47,7 @@
 		F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		F73D0BB52B9953FC006A8C4D /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		F73D0BB72B99575C006A8C4D /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		F740AAF32BB771E0004237DC /* ReminderStatsBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStatsBuilder.swift; sourceTree = "<group>"; };
 		F744AA2D2BA3F9B200BB3F9C /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		F752A7A42B9A74A9001508F4 /* RemindersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersService.swift; sourceTree = "<group>"; };
 		F752A7A72B9A7742001508F4 /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				F77F958E2BA0F526006ADAA9 /* EditConfigs */,
 				F73D0BB02B994F73006A8C4D /* MyList+CoreDataClass.swift */,
 				F73D0BB22B994F91006A8C4D /* MyList+CoreDataProperties.swift */,
+				F740AAF32BB771E0004237DC /* ReminderStatsBuilder.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				F7E52D122B9F8C6A002F7C38 /* MyListDetailView.swift in Sources */,
 				F73D0BA82B994AAE006A8C4D /* CoreDataProvider.swift in Sources */,
 				F73D0BB32B994F91006A8C4D /* MyList+CoreDataProperties.swift in Sources */,
+				F740AAF42BB771E0004237DC /* ReminderStatsBuilder.swift in Sources */,
 				F77F95902BA0F569006ADAA9 /* ReminderEditConfig.swift in Sources */,
 				F752A7B12B9A8512001508F4 /* String+Extensions.swift in Sources */,
 				F73D0BB62B9953FC006A8C4D /* AddNewListView.swift in Sources */,
