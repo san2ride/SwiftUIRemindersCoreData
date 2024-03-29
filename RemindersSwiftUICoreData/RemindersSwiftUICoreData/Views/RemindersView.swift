@@ -18,10 +18,20 @@ struct RemindersView: View {
     @State private var isPresented: Bool = false
     @State private var searching: Bool = false
     
+    
+    
     var body: some View {
         NavigationStack {
             VStack {
                 ScrollView {
+                    HStack {
+                        ReminderStatsView(icon: "calendar", title: "Today", count: 9)
+                        ReminderStatsView(icon: "tray.circle.fill", title: "All", count: 4)
+                    }
+                    HStack {
+                        ReminderStatsView(icon: "calendar", title: "Today", count: 9)
+                        ReminderStatsView(icon: "checkmark.circle.fill", title: "Completed", count: 14)
+                    }
                     MyListView(myLists: myListResults)
                     
                     //Spacer()
