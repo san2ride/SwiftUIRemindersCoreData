@@ -31,7 +31,7 @@ struct ReminderStatsView: View {
                 }
             }.padding()
                 .frame(maxWidth: .infinity)
-                .background(.green)
+                .background(.gray)
                 .foregroundColor(.white)
                 .clipShape(RoundedRectangle(cornerRadius: 16.0, style: .continuous))
         }
