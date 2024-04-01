@@ -48,7 +48,6 @@ struct RemindersView: View {
                         NavigationLink {
                             ReminderListView(reminders: scheduledResults)
                         } label: {
-                            Remis
                             ReminderStatsView(icon: "calendar.circle.fill",
                                               title: "Scheduled",
                                               count: reminderStatsValues.scheduledCount)
